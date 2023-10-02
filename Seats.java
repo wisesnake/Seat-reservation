@@ -1,45 +1,47 @@
 package booktheseat;
 
 public class Seats {
-	private int seatNo; // ÁÂ¼® ¹øÈ£
-	private int bookedCustNo; // ¿¹¾à ¹øÈ£
-	private boolean booked; // ¿¹¾à ¿©ºÎ
-
-	public Seats(int seatNo, int bookedCustNo) {
-		this.seatNo = seatNo;
-		this.bookedCustNo = bookedCustNo;
-		this.booked = false;
-	}
 	
-	public void setSeatNo(int seatNo) {
-		this.seatNo = seatNo;
-	}
+   private int seatNo; // ì¢Œì„ ë²ˆí˜¸
 
-	public void setBookedCustNo(int bookedCustNo) {
-		this.bookedCustNo = bookedCustNo;
-	}
+   private int bookedCustNo; // ì˜ˆì•½ ë²ˆí˜¸
+   private boolean booked; // ì˜ˆì•½ ì—¬ë¶€
 
-	public void setBooked(boolean booked) {
-		this.booked = booked;
-	}
-	
-	public void initSample(int seatNo, int bookedCustNo) {
-		this.seatNo = seatNo;
-		this.bookedCustNo = bookedCustNo;
-		this.booked = true;
-	}
+   public Seats(int seatNo, int bookedCustNo) {
+      this.seatNo = seatNo;
+      this.bookedCustNo = bookedCustNo;
+      this.booked = false;
+   }
+   
+   public void setSeatNo(int seatNo) {
+      this.seatNo = seatNo;
+   }
+
+   public void setBookedCustNo(int bookedCustNo) {
+      this.bookedCustNo = bookedCustNo;
+   }
+
+   public void setBooked(boolean booked) {
+      this.booked = booked;
+   }
+   
+   public void initSample(int seatNo, int bookedCustNo) {
+      this.seatNo = seatNo;
+      this.bookedCustNo = bookedCustNo;
+      this.booked = true;
+   }
 
 
-	public int getSeatNo() {
-		return seatNo;
-	}
+   public int getSeatNo() {
+      return seatNo;
+   }
 
-	public int getBookedCustNo() {
-		return bookedCustNo;
-	}
+   public int getBookedCustNo() {
+      return bookedCustNo;
+   }
 
-	public boolean isBooked() {
-		return booked;
-	}
+   public boolean isBooked() {
+      return booked;
+   }
 
 }
