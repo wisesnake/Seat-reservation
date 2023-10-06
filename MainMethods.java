@@ -1,6 +1,6 @@
-package booktheseat;
+package seat_reservation;
 
-public class MainMethods extends Main{
+public class MainMethods extends Main {
 	static void printSeat() {
 		int seatIndexNo = 1;
 		int seatNoVar = 1;
@@ -43,6 +43,8 @@ public class MainMethods extends Main{
 		seat[20].initSample(20, 1005);
 		seat[30].initSample(30, 1006);
 	}
+
+	
 
 	static void printMenuTitle(String title) {
 		if (title.equals("종료합니다.")) {

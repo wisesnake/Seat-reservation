@@ -1,9 +1,8 @@
-package booktheseat;
+package seat_reservation;
 
 public class Seats {
 	
    private int seatNo; // 좌석 번호
-
    private int bookedCustNo; // 예약 번호
    private boolean booked; // 예약 여부
 
